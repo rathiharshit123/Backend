@@ -21,7 +21,7 @@ const contactSchema = new mongoose.Schema({
     desc: String
   });
 
-  const Contact = mongoose.model('Contact', contactSchema);
+const Contact = mongoose.model('Contact', contactSchema);
 
 //EXPRESS RELATED STUFF
 app.use('/static',express.static('static')) // for serving static files
